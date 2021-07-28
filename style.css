@@ -111,13 +111,24 @@ main {
 @media (max-width: 576px) {
 
     .content__title {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
+    .accent {
+        display: block;
+        font-size: 1.7rem;
+    }
     .content__description {
         font-size: 1rem;
     }
 
+}
+
+@media (max-width: 768px) {
+    .accent {
+        display: block;
+        font-size: 3rem;
+    }
 }
 
 .feature-image {
@@ -142,7 +153,11 @@ main {
 
 @media (max-width: 576px) {
     .feature__title {
-        font-size: 4rem;
+        font-size: 2.5rem;
+    }
+
+    .feature__subtitle {
+        font-size: 2rem;
     }
 }
 
