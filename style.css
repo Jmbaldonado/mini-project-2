@@ -193,3 +193,30 @@ main {
 .icons {
     font-size: 14px;
 }
+
+/* About Us */
+
+#about {
+    background: linear-gradient(to right, #222629, #474B4F);
+}
+.title {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.col-lg-12 > h1::after,
+.col-lg-12 > h2::after {
+    content: '';
+    width: 15%;
+    height: 2px;
+    background: #88C232;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.about__description {
+    text-indent: 1.5rem;
+}
