@@ -25,6 +25,17 @@ main {
     color: #fff;
 }
 
+.btn-green {
+    background-color: #88C232;
+    border: 1px solid #88C232;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #61892f;
+    border: 1px solid #61892f;
+    color: #fff;
+}
 .navbar-brand > img {
     width: 75px;
     height: 90px;
@@ -196,24 +207,20 @@ main {
 
 /* About Us */
 
-#about {
-    background: linear-gradient(to right, #222629, #474B4F);
-}
+
 .title {
     position: relative;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
-.col-lg-12 > h1::after,
-.col-lg-12 > h2::after {
+.about__container > h1::after {
     content: '';
-    width: 15%;
+    width: 20%;
     height: 2px;
     background: #88C232;
     display: block;
-    margin: auto;
     transition: 0.5s ease-in-out;
 }
 
