@@ -219,6 +219,7 @@ main {
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 /* About Us */
 
 
@@ -423,3 +424,42 @@ main {
     border-radius: 10px;
     height: 400px;
 }
+=======
+/* =================== Service Section ==================*/
+.service-h4{
+    padding-bottom: 30px;
+  }
+  
+  .service-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+  }
+  
+  .service-box{
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);  
+    margin-left: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .service-box:hover{
+    box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
+   
+  }
+
+  /*===================== Progress Bar ====================*/
+
+.progress {
+    border-radius: 10px;
+  }
+  
+  .progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+  }
+>>>>>>> 56577f698e5d626f73a1a7635b71b03d06f3586f
